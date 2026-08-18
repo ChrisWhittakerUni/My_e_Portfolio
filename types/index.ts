@@ -44,24 +44,17 @@ export interface ProjectMetric {
 }
 
 export interface Project {
-  /** Stable id, also used as the modal's URL hash. */
   slug: string;
   title: string;
   tagline: string;
   period: string;
-  domains: ProjectDomain[];
-  /** Tech pills shown on the card, in display order. */
-  stack: string[];
+  image?: string;
+  video?: string; // e.g. "/videos/chargeapp-demo.mp4"
   metrics: ProjectMetric[];
-  highlights: string[];
-  /** Longer write-up shown in the deep-dive modal. */
   overview: string;
   role: string;
-  links: ProjectLink[];
-  /** Featured projects span two columns on large screens. */
   featured?: boolean;
 }
-
 /* -------------------------------------------------------------------------- */
 /*                                   Skills                                    */
 /* -------------------------------------------------------------------------- */

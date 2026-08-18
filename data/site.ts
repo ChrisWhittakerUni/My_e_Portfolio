@@ -48,7 +48,7 @@ export const site: SiteConfig = {
 
 /** Longer-form bio, rendered as paragraphs in the About section. */
 export const aboutParagraphs: string[] = [
-  "I'm an Electrical & Computer Engineering student who likes problems that refuse to stay in one discipline. Most of my work starts at a breadboard or a SPICE deck and ends in a repo — a levitation rig that needed a robust controller, a CT scan pipeline that needed a segmentation model, a campus payment card that needed both firmware and an app.",
-  "What I care about is the seam between layers: the timing budget between an interrupt and a PWM edge, the noise floor that decides whether a sensor reading is real, the difference between a model that scores well and one that behaves in a clinic. That's usually where the interesting failures live.",
-  "Right now I'm finishing my degree, building things on the bench, and looking for graduate work where hardware and software have to agree with each other.",
+  "Hi, my name is Chris and I'm an aspiring engineer. My degree is in Electrical and computer engineering but honestly I am interested in all things engineering. From mechanical to chemical, I love understanding how things work and working on projects where I can turn my ideas into real life products.",
+  "Behind the scenes there's more to unpack though. Balance is key, and as crazy as it may sound, I do have hobbies unrelated to my degree.",
+  "I'm an avid runner and enjoy hiking, fishing and most other outdoors activities. Despite being a bit out of practice, I enjoy playing guitar and listening to music. Most recently I've begun gardening and am enjoying growing and cooking with my own herbs.",
 ];

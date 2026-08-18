@@ -7,8 +7,8 @@ export function SkillsGrid() {
     <Section id="skills" bordered>
       <SectionHeading
         eyebrow="02 / skills"
-        title="Domains I build in"
-        description="Grouped by the kind of problem rather than by tool — most projects pull from three of these at once."
+        title="Skills and Areas of Interest:"
+        description="Here's a detailed list of my top skills and interests within engineering. Most of my projects include atleast 2 to 3 of these."
       />
 
       <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,14 +1,15 @@
-import { GraduationCap, MapPin, Radio, Wrench } from "lucide-react";
+import { Building, Footprints, GraduationCap, MapPin, Music, Radio, Sprout, Wrench } from "lucide-react";
 
 import { Reveal } from "@/components/Reveal";
 import { Section, SectionHeading } from "@/components/Section";
 import { aboutParagraphs, site } from "@/data/site";
+import { Activity } from "react";
 
 const facts = [
-  { icon: GraduationCap, label: "Studying", value: "BSc (Eng) Electrical & Computer Engineering" },
-  { icon: Wrench, label: "Working on", value: "Robust control, embedded drives, medical imaging ML" },
-  { icon: MapPin, label: "Based in", value: site.location },
-  { icon: Radio, label: "Open to", value: "Graduate roles, internships, hardware-adjacent software" },
+  { icon: Wrench, label: "Engineering related", value: "In my spare time, I enjoy workinmg on small, fun engineering projects and builds." },
+  { icon: Footprints, label: "Outdoor activities", value: "I love running, hiking, camping, fishing an manmy other outdoors activities." },
+  { icon: Music, label: "Music", value: "One of my hobbies is listening to musioc and playing when I get time." },
+  { icon: Sprout, label: "Gardening", value: "Recently, I've started growing herbs and vegetables to cook with." },
 ];
 
 export function About() {
@@ -16,8 +17,8 @@ export function About() {
     <Section id="about">
       <SectionHeading
         eyebrow="01 / about"
-        title="Engineer across the hardware–software boundary"
-        description="Comfortable at the oscilloscope and in the repo, and most useful where the two have to agree."
+        title="Who I am, In and Out of Engineering"
+        description="Get to know what I'm about, my studies and what I like to do in my spare time."
       />
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:gap-14">
