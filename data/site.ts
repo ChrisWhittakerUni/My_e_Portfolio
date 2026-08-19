@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   name: "Chris Whittaker",
   title: "Electronics & Computer Engineer",
   summary:
-    "I'm a passionate engineering student, but there's a lot more to me than that. Use the navigation bar above, or simply scroll down to explore my e-portfolio. Click into my projects to get a deep dive on them!",
+    "I'm a passionate engineering student, but there's a lot more to me than that. Use the navigation bar above, or simply scroll down to explore my e-portfolio. To change between light and dark themes, use the top right button. For more information, download my resume in the top right corner and be sure to click into my projects to get a deep dive on them!",
   focusAreas: [
     "Embedded Systems",
     "Power Electronics",

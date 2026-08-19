@@ -91,17 +91,6 @@ export function Hero() {
             {site.summary}
           </motion.p>
 
-          <motion.ul variants={item} className="mt-7 flex flex-wrap gap-2">
-            {site.focusAreas.map((area) => (
-              <li
-                key={area}
-                className="rounded-full border border-border bg-surface/70 px-3 py-1.5 text-xs text-muted backdrop-blur-sm transition-colors hover:border-accent/50 hover:text-foreground sm:text-sm"
-              >
-                {area}
-              </li>
-            ))}
-          </motion.ul>
-
           <motion.div variants={item} className="mt-9 flex flex-wrap items-center gap-3">
             <a
               href="#projects"
