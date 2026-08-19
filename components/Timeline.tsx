@@ -15,9 +15,7 @@ import type { ExperienceKind } from "@/types";
 const KIND_META: Record<ExperienceKind, { icon: LucideIcon; label: string }> = {
   education: { icon: GraduationCap, label: "Education" },
   research: { icon: FlaskConical, label: "Research" },
-  lab: { icon: CircuitBoard, label: "Laboratory" },
   work: { icon: Briefcase, label: "Work" },
-  leadership: { icon: Users, label: "Leadership" },
 };
 
 export function Timeline() {
@@ -25,8 +23,8 @@ export function Timeline() {
     <Section id="experience" bordered>
       <SectionHeading
         eyebrow="04 / experience"
-        title="Education, research and practice"
-        description="Where the coursework, the lab bench and the work outside it have overlapped."
+        title="Education, Research and Work Experience"
+        description="Here's a detailed list of what I've been up to over the last 4 years in terms of education and work experience."
       />
 
       <ol className="relative mt-12 before:absolute before:bottom-4 before:left-[19px] before:top-4 before:w-px before:bg-border before:content-['']">

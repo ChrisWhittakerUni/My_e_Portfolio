@@ -80,9 +80,7 @@ export interface SkillCategory {
 export type ExperienceKind =
   | "education"
   | "research"
-  | "lab"
-  | "work"
-  | "leadership";
+  | "work";
 
 export interface Experience {
   id: string;

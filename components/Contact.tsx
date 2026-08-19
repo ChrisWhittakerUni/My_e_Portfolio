@@ -46,8 +46,8 @@ export function Contact() {
     <Section id="contact" bordered>
       <SectionHeading
         eyebrow="05 / contact"
-        title="Let's build something that has to work"
-        description="Graduate roles, internships, or a hardware problem that needs a second pair of eyes — the inbox is open."
+        title="Get in touch with me."
+        description="I'm looking for graduate roles in 2027, so if you like the work you see, send me a message directly or via email below."
       />
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:gap-14">

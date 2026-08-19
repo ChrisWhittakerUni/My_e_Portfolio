@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   name: "Chris Whittaker",
   title: "Electronics & Computer Engineer",
   summary:
-    "I design across the whole stack of a system — from gate drivers and PCB layout, through control loops and signal processing, up to the apps and models that make the hardware useful.",
+    "I'm a passionate engineering student, but there's alot more to me than that. Use the navigation bar above, or simply scroll down to explore my e-portfolio. Click into my projects to get a deep dive on them!",
   focusAreas: [
     "Embedded Systems",
     "Power Electronics",
