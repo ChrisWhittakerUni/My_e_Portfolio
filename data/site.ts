@@ -8,7 +8,7 @@ export const site: SiteConfig = {
   name: "Chris Whittaker",
   title: "Electronics & Computer Engineer",
   summary:
-    "I'm a passionate engineering student, but there's alot more to me than that. Use the navigation bar above, or simply scroll down to explore my e-portfolio. Click into my projects to get a deep dive on them!",
+    "I'm a passionate engineering student, but there's a lot more to me than that. Use the navigation bar above, or simply scroll down to explore my e-portfolio. Click into my projects to get a deep dive on them!",
   focusAreas: [
     "Embedded Systems",
     "Power Electronics",
@@ -22,12 +22,12 @@ export const site: SiteConfig = {
   socials: {
     github: {
       label: "GitHub",
-      href: "https://github.com/WHTCHR013",
-      handle: "@WHTCHR013",
+      href: "https://github.com/ChrisWhittakerUni",
+      handle: "@ChrisWhittakerUni",
     },
     linkedin: {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/chris-whittaker",
+      href: "https://www.linkedin.com/in/chris-whittaker-b939b5363/",
       handle: "/in/chris-whittaker",
     },
   },
@@ -39,10 +39,6 @@ export const site: SiteConfig = {
     { label: "Contact", href: "#contact" },
   ],
   specs: [
-    { key: "focus", value: "embedded • control • ML" },
-    { key: "toolchain", value: "STM32CubeIDE / KiCad / PyTorch" },
-    { key: "bench", value: "LTspice, MATLAB, scope + logic analyser" },
-    { key: "status", value: "open to 2026 graduate roles" },
   ],
 };
 

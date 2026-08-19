@@ -28,11 +28,7 @@ export function Footer() {
         <div className="max-w-sm">
           <p className="text-sm font-semibold tracking-tight">{site.name}</p>
           <p className="numeric mt-1 text-xs text-accent">{site.title}</p>
-          <p className="mt-4 text-sm leading-relaxed text-muted">
-            Designing across the hardware–software boundary, from{" "}
-            <span className="numeric text-foreground">gate drivers</span> to{" "}
-            <span className="numeric text-foreground">gradient descent</span>.
-          </p>
+          
 
           <div className="mt-5 flex items-center gap-1">
             {socials.map(({ href, label, Icon }) => (

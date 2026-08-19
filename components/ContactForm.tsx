@@ -130,7 +130,7 @@ export function ContactForm() {
             onBlur={() => setTouched((t) => ({ ...t, name: true }))}
             aria-invalid={Boolean(showError("name"))}
             aria-describedby={showError("name") ? "name-error" : undefined}
-            placeholder="Ada Lovelace"
+            placeholder="Jane Doe"
             className={fieldClass(Boolean(showError("name")))}
           />
           {showError("name") ? (
@@ -188,7 +188,7 @@ export function ContactForm() {
           onBlur={() => setTouched((t) => ({ ...t, message: true }))}
           aria-invalid={Boolean(showError("message"))}
           aria-describedby={showError("message") ? "message-error" : undefined}
-          placeholder="What are you building, and where might I fit?"
+          placeholder="Hi, I'm interested in learning more about ..."
           className={cn(fieldClass(Boolean(showError("message"))), "resize-y")}
         />
         {showError("message") ? (

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { ArrowRight, Mail, MapPin } from "lucide-react";
 
@@ -66,7 +67,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
             </span>
-            Available for 2026 graduate roles
+            Available for 2027 graduate roles
           </motion.p>
 
           <motion.h1
@@ -145,49 +146,26 @@ export function Hero() {
           </motion.p>
         </motion.div>
 
-        {/* Mono spec sheet — the "engineering" counterweight to the copy. */}
+        {/* Profile Picture */}
         <motion.div
           initial={reduceMotion ? undefined : { opacity: 0, y: 24 }}
           animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          className="relative"
+          className="relative mx-auto w-full max-w-md lg:max-w-none"
         >
           <div
             aria-hidden="true"
             className="absolute -inset-4 -z-10 rounded-3xl bg-accent/10 blur-2xl"
           />
-          <div className="overflow-hidden rounded-2xl border border-border bg-surface/85 shadow-lg backdrop-blur-sm">
-            <div className="flex items-center gap-2 border-b border-border bg-surface-muted/60 px-4 py-3">
-              <span className="h-2.5 w-2.5 rounded-full bg-red-400/70" />
-              <span className="h-2.5 w-2.5 rounded-full bg-amber-400/70" />
-              <span className="h-2.5 w-2.5 rounded-full bg-emerald-400/70" />
-              <span className="numeric ml-2 text-xs text-muted">~/profile.cfg</span>
-            </div>
-
-            <dl className="numeric divide-y divide-border text-sm">
-              {site.specs.map((spec) => (
-                <div
-                  key={spec.key}
-                  className="flex flex-col gap-1 px-4 py-3.5 sm:flex-row sm:items-baseline sm:gap-4"
-                >
-                  <dt className="w-28 shrink-0 text-xs uppercase tracking-wider text-accent">
-                    {spec.key}
-                  </dt>
-                  <dd className="text-muted">{spec.value}</dd>
-                </div>
-              ))}
-            </dl>
-
-            <div className="border-t border-border bg-surface-muted/40 px-4 py-3">
-              <p className="numeric flex items-center gap-2 text-xs text-muted">
-                <span className="text-accent">$</span>
-                <span>whoami</span>
-                <span
-                  aria-hidden="true"
-                  className="inline-block h-3.5 w-1.5 animate-pulse bg-accent"
-                />
-              </p>
-            </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-surface/85 shadow-lg backdrop-blur-sm">
+            <Image
+              src="/images/me_.jpeg"
+              alt={site.name}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
           </div>
         </motion.div>
       </div>
