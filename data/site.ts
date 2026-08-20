@@ -18,7 +18,7 @@ export const site: SiteConfig = {
   ],
   location: "Cape Town, South Africa",
   email: "chriswhittaker2004@gmail.com",
-  resumeUrl: "/Chris_whittaker_CV.pdf",
+  resumeUrl: "/Chris_Whittaker_CV.pdf",
   socials: {
     github: {
       label: "GitHub",
