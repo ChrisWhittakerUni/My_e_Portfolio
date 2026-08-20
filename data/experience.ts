@@ -31,11 +31,11 @@ export const experiences: Experience[] = [
     location: "Cape Town, South Africa",
     period: "2026",
     summary:
-      "My final year capstone research project is a balance aid for the elderly. It is a wearable reaction wheel which will use a gain scheduling control aproach to dynamically adjust its controller algorithm to work with a wide range of people with varying height and weight. The project uses consertvation of angular momentum and control theory to maintain a 0 degree tilt angle in the coronal plane (stop them from falling over sideways).",
+      "My final year capstone research project is a balance aid. It is a wearable reaction wheel which will use a gain scheduling control aproach to dynamically adjust its controller algorithm to work with a wide range of people with varying height and weight. The project uses conservation of angular momentum and control theory to maintain a 0 degree tilt angle in the coronal plane (stop people from falling over sideways).",
     highlights: [
       "Academic research.",
       "Use of controls theory.",
-      "Mechanical desiign and simulation using software such as Matlab and Simulink",
+      "Mechanical design and simulation using software such as Matlab and Simulink",
       "Delivery of a physical prototype.",
       "Formal report writing to show the prior research as well as document the project.",
     ],
@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     location: "Cape Town, South Africa",
     period: "2024",
     summary:
-      "In my second year, I tutored a first year course in CAD and PCB design.",
+      "In my second year, I tutored a first year course on CAD and PCB design.",
     highlights: [
       "Gained valuable experience working in a team with other tutors and teaching staff.",
       "Learnt how to effectively communicate ideas to students struggling to understand a topic.",
@@ -65,10 +65,10 @@ export const experiences: Experience[] = [
     location: "Cape Town, South Africa",
     period: "January 2025",
     summary:
-      "In my third year, I interned at an commercial drone company which sell and repair all types of drones for an international client base.",
+      "In my third year, I interned at a commercial drone company which sells and repairs all types of drones for an international client base.",
     highlights: [
       "Got hands on experience with soldering, 3D printing and hardware repairs.",
-      "Deveoped embedded systems firmware to allow different strobe light sequences.",
+      "Developed embedded systems firmware to allow different strobe light sequences.",
       "Experienced real work place dynamics for the first time.",
     ],
     tags: [],
@@ -81,10 +81,10 @@ export const experiences: Experience[] = [
     location: "Pretoria, South Africa",
     period: "July 2025",
     summary:
-      "In my third year, I also interned at a VR mining and and heavy vehicle simulator company, which builds and maintains physical simulators to train heavy vehicle drivers on.",
+      "In my third year, I also interned at a VR mining and heavy vehicle simulator company, which builds and maintains physical simulators to train heavy vehicle drivers on.",
     highlights: [
       "Gathered experience on PCB fault testing, diagnostics and repair.",
-      "Researched component options for an update to one of the companies previous PCB design.",
+      "Researched component options for an update to one of the company's previous PCB designs.",
       "Began the design process for the new updated board.",
     ],
     tags: [],
@@ -94,14 +94,14 @@ export const experiences: Experience[] = [
     kind: "work",
     title: "Intern",
     organization: "CAP Security NPC",
-    location: "Johgannesburg, South Africa",
+    location: "Johannesburg, South Africa",
     period: "July 2026",
     summary:
-      "In my final year, I worked at one of the largest non-profit community security companies in South Africa, that does armed response, offsite monitoring, criminal investigations and much more, in an attempt to create safer communities.",
+      "In my final year, I worked at one of the largest non-profit community security companies in South Africa, that does armed response, offsite monitoring, criminal investigations, and much more, in an attempt to create safer communities.",
     highlights: [
-      "Developed AI systems that help streamline the gatherinng of information the fleet management software used at CAP.",
+      "Developed an AI system that helps streamline the gatherinng of information from the fleet management software used at CAP.",
       "Helped create a guide for non-technical staff to configure dashcam settings.",
-      "Met with department heads and was exposed to the business side of a project which involves meeting with stakeholders to understand their needs.",
+      "Was exposed to the business side of a project which involves meeting with stakeholders, such as department heads, to understand their needs.",
     ],
     tags: [],
   },

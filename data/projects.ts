@@ -38,25 +38,25 @@ export const projects: Project[] = [
       {
         value: "Result",
         label:
-          "Although it took many late nights, my micromouse project was a success. It completed the full m,aize, before returning back and stopping in the block it was started in. I received full marks for the demo.",
+          "Although it took many late nights, my micromouse project was a success. It completed the full maize, before returning back and stopping in the block it was started in. I received full marks for the demo.",
       },
     ],
   },
   {
     slug: "smart-tv",
     title: "Raspberry-Pi Smart TV",
-    tagline: "Using a Raspberry-Pi 5 and a standard monitor to create a smart TV that can stream Youtube, Netflix, DSTVNow, or any other browser accesible site",
+    tagline: "Using a Raspberry-Pi 5 and a standard monitor, I'm creating a smart TV that can stream Youtube, Netflix, DSTVNow, or any other browser accesible site.",
     period: "2026",
     image: "/images/smartTV.jpg",
     featured: true,
     role: "Software development.",
     overview:
-      "As part of one of my personal projects, I want to use a RaspberryPi5 I have from the ChargeApp project to create a smart TV. A Rasberry Pi 5 is a mini-computer, and so it can access google, and thus netflix, Youtube, DSTVNow or any other site, and then display it on a monitor. The idea is to use some sort of wireless communication such as InfraRed or bluetooth in order to have a remote controller that one coud use to navigate the SmartTV easily.",
+      "As part of one of my personal projects, I am using a Raspberry-Pi 5 that I have from the ChargeApp project to create a smart TV. A Rasberry-Pi 5 is a mini-computer and so it can access google, and thus netflix, Youtube, DSTVNow or any other site, and then display it on a monitor. The idea is to use some sort of wireless communication, such as InfraRed or bluetooth, in order to have a remote that one could use to navigate the SmartTV easily.",
     metrics: [
       {
         value: "Desired Result",
         label:
-          "To get a functional, easy to use smart TV.",
+          "To have a functional, easy to use smart TV.",
       },
     ],
   },

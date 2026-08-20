@@ -47,7 +47,7 @@ export function Contact() {
       <SectionHeading
         eyebrow="05 / contact"
         title="Get in touch with me."
-        description="I'm looking for graduate roles in 2027, so if you like the work you see, send me a message directly or via email below."
+        description="I'm looking for graduate roles in 2027, so if you like the work you see, send me a message via email below."
       />
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:gap-14">

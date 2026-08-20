@@ -6,9 +6,9 @@ import { aboutParagraphs, site } from "@/data/site";
 import { Activity } from "react";
 
 const facts = [
-  { icon: Wrench, label: "Engineering related", value: "In my spare time, I enjoy workinmg on small, fun engineering projects and builds." },
-  { icon: Footprints, label: "Outdoor activities", value: "I love running, hiking, camping, fishing an manmy other outdoors activities." },
-  { icon: Music, label: "Music", value: "One of my hobbies is listening to musioc and playing when I get time." },
+  { icon: Wrench, label: "Engineering related", value: "In my spare time, I enjoy working on small, fun engineering projects and builds." },
+  { icon: Footprints, label: "Outdoor activities", value: "I love running, hiking, camping, fishing an many other outdoor activities." },
+  { icon: Music, label: "Music", value: "One of my hobbies is listening to music, as well as playing when I get time." },
   { icon: Sprout, label: "Gardening", value: "Recently, I've started growing herbs and vegetables to cook with." },
 ];
 

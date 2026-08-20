@@ -18,7 +18,7 @@ export const site: SiteConfig = {
   ],
   location: "Cape Town, South Africa",
   email: "chriswhittaker2004@gmail.com",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Chris_whittaker_CV.pdf",
   socials: {
     github: {
       label: "GitHub",
@@ -44,7 +44,7 @@ export const site: SiteConfig = {
 
 /** Longer-form bio, rendered as paragraphs in the About section. */
 export const aboutParagraphs: string[] = [
-  "Hi, my name is Chris and I'm an aspiring engineer. My degree is in Electrical and computer engineering but honestly I am interested in all things engineering. From mechanical to chemical, I love understanding how things work and working on projects where I can turn my ideas into real life products.",
-  "Behind the scenes there's more to unpack though. Balance is key, and as crazy as it may sound, I do have hobbies unrelated to my degree.",
+  "Hi, my name is Chris and I'm an aspiring engineer. My degree is in Electrical and computer engineering, but honestly I am interested in all things engineering. From mechanical to chemical, I love understanding how things work and working on projects where I can turn my ideas into real life products.",
+  "Behind the scenes, there's more to unpack though. Balance is key, and as crazy as it may sound, I do have hobbies unrelated to my degree.",
   "I'm an avid runner and enjoy hiking, fishing and most other outdoors activities. Despite being a bit out of practice, I enjoy playing guitar and listening to music. Most recently I've begun gardening and am enjoying growing and cooking with my own herbs.",
 ];

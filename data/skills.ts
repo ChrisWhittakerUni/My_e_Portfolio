@@ -32,7 +32,7 @@ export const skillCategories: SkillCategory[] = [
     id: "control-signal",
     title: "Control Systems",
     blurb:
-      "Modelling a plant, bounding what you don't know about it, and closing a loop that still behaves at the edges.",
+      "Through the two control systems courses I've taken, I've gained knowledge and experience in modeling systems and desinging controllers to get the desired performance.",
     icon: AudioWaveform,
     skills: [
       { name: "Testing System Responses"},
@@ -64,7 +64,7 @@ export const skillCategories: SkillCategory[] = [
     id: "cad-mechanical",
     title: "3D Modeling & CAD",
     blurb:
-      "Through design projects at UCT I taught myself simple CAD modeling and 3D printing. This came in handy when needing specific custom parts.",
+      "Through design projects at UCT I learnt CAD modeling and 3D printing. This came in handy when needing specific custom parts.",
     icon: Box,
     skills: [
       { name: "SolidWorks"},
